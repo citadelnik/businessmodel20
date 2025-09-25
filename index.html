@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Model Canvas: PartneX (Growth-as-a-Service)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,17 +43,10 @@
         }
         .canvas-card li {
             position: relative;
-            padding-left: 1.5rem;
+            padding-left: 0; /* Removed padding for checkmark */
             margin-bottom: 0.75rem;
             font-size: 0.9rem;
             color: #4b5563; /* Tailwind's gray-600 */
-        }
-        .canvas-card li::before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            color: #10b981; /* Tailwind's emerald-500 */
-            font-weight: bold;
         }
         .card-subtitle {
             font-weight: 600;
@@ -259,4 +252,3 @@
 
 </body>
 </html>
-
